@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://n0hpw2mgy07w"]
+
+[ext_resource type="Shader" uid="uid://f4yk1le8dud1" path="res://Shader.gdshader" id="1_sk5e1"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_sk5e1")
+shader_parameter/point_color = Color(0.1, 1, 0.6, 1)
+shader_parameter/point_size = 0.05
+shader_parameter/base_alpha = 1.0
